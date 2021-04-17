@@ -12,3 +12,4 @@ gradient descent中要注意的问题：
 #### Adagrad————learning rate除以参数之前微分值的均方根（N个项的平方和除以N后开平方的结果）  
 ![image](https://github.com/wangqinshuo/Machine-Learing/blob/main/Pictures/5-Gradient%20Descent/Adagrad.png)  
 ### 2、Stochastic Gradicent Descent（随机梯度下降）  
+随机梯度下降的方法可以让训练更快速，传统的gradient descent的思路是看完所有的样本点之后再构建loss function，然后去update参数；而stochastic gradient descent的做法是，看到一个样本点就update一次，因此它的loss function不是所有样本点的error平方和，而是这个随机样本点的error平方
