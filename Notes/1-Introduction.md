@@ -7,7 +7,8 @@
 2、机器对function的好或坏进行衡量
 3、机器选出一个最好的function
 
-![image](https://github.com/wangqinshuo/Machine-Learing/blob/main/Pictures/learning-map.png)  
+<img src=https://github.com/wangqinshuo/Machine-Learing/blob/main/Pictures/learning-map.png width="60%">
+
 supervised learning（监督学习），训练集有label  
 1、regression（回归问题）——预测，输出具体的数值     
 2、classification（分类问题）——分类  
